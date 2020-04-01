@@ -12,6 +12,13 @@ namespace E_health_care
         protected void Page_Load(object sender, EventArgs e)
         {
 
+
+
+
+
+
+
+
         }
     }
 }
