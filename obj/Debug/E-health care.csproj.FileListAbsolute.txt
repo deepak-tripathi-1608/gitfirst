@@ -1,0 +1,10 @@
+D:\dee 52\E-health care\E-health care\bin\E-health care.dll
+D:\dee 52\E-health care\E-health care\bin\E-health care.pdb
+D:\dee 52\E-health care\E-health care\obj\Debug\E-health care.dll
+D:\dee 52\E-health care\E-health care\obj\Debug\E-health care.pdb
+D:\dee 52\E-health care\E-health care\obj\Debug\E-health care.csprojResolveAssemblyReference.cache
+C:\Users\deppak\Desktop\backup\helth09\bin\E-health care.dll
+C:\Users\deppak\Desktop\backup\helth09\bin\E-health care.pdb
+C:\Users\deppak\Desktop\backup\helth09\obj\Debug\E-health care.csprojResolveAssemblyReference.cache
+C:\Users\deppak\Desktop\backup\helth09\obj\Debug\E-health care.dll
+C:\Users\deppak\Desktop\backup\helth09\obj\Debug\E-health care.pdb

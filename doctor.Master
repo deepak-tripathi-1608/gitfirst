@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="doctor.master.cs" Inherits="E_health_care.doctor" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <asp:Label ID="Label1" style="
+    text-transform: uppercase;
+    color: #16b939;
+    font-size: 24px;
+    padding: 15px;
+   
+    line-height: 47px;" runat="server" Text=""></asp:Label>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="dseeapp.aspx">See Appointment</a></li>
+      <li><a href="dprofile.aspx">Profile</a></li>
+      <li><asp:Button ID="Button1" style="
+    padding: 8px;
+    margin: 6px 9px 5px 26px;" runat="server" CssClass="btn btn-primary" 
+              Text="Sign Out" onclick="Button1_Click"></asp:Button></li>
+    </ul>
+  </div>
+</nav>
+  
+
+
+
+
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+     <br />
+    <br />
+    <div class="container-fluid bg-primary text-white text-center ">
+     <h5>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Designed By... 
+</h5>
+    
+    </div>
+    </form>
+</body>
+</html>

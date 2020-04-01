@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{05E657BF-0051-4E38-9E91-4EF734099344}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>E_health_care</RootNamespace>
+    <AssemblyName>E-health care</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="about.aspx" />
+    <Content Include="alldoctors.aspx" />
+    <Content Include="all_login.aspx" />
+    <Content Include="contact.aspx" />
+    <Content Include="contactusaspx.aspx" />
+    <Content Include="css\animate.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\flexslider.css" />
+    <Content Include="css\icomoon.css" />
+    <Content Include="css\magnific-popup.css" />
+    <Content Include="css\owl.carousel.min.css" />
+    <Content Include="css\owl.theme.default.min.css" />
+    <Content Include="css\style.css" />
+    <Content Include="dhome.aspx" />
+    <Content Include="doctorsin.aspx" />
+    <Content Include="dprofile.aspx" />
+    <Content Include="dseeapp.aspx" />
+    <Content Include="feedback.aspx" />
+    <Content Include="fonts\bootstrap\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\flaticon\backup.txt" />
+    <Content Include="fonts\flaticon\font\flaticon.css" />
+    <Content Include="fonts\flaticon\font\flaticon.html" />
+    <Content Include="fonts\flaticon\font\Flaticon.svg" />
+    <Content Include="fonts\icomoon\icomoon.svg" />
+    <Content Include="home.aspx" />
+    <Content Include="images\about.jpg" />
+    <Content Include="images\about.png" />
+    <Content Include="images\blog-1.jpg" />
+    <Content Include="images\blog-2.jpg" />
+    <Content Include="images\blog-3.jpg" />
+    <Content Include="images\blog-4.jpg" />
+    <Content Include="images\blog-5.jpg" />
+    <Content Include="images\blog-6.jpg" />
+    <Content Include="images\cover_bg_1.jpg" />
+    <Content Include="images\img_bg_1.jpg" />
+    <Content Include="images\img_bg_2.jpg" />
+    <Content Include="images\img_bg_5.jpg" />
+    <Content Include="images\img_bg_6.jpg" />
+    <Content Include="images\loader.gif" />
+    <Content Include="images\loc.png" />
+    <Content Include="images\person1.jpg" />
+    <Content Include="images\person2.jpg" />
+    <Content Include="images\person3.jpg" />
+    <Content Include="images\person4.jpg" />
+    <Content Include="images\services-1.jpg" />
+    <Content Include="images\services-2.jpg" />
+    <Content Include="images\staff-1.jpg" />
+    <Content Include="images\staff-2.jpg" />
+    <Content Include="images\staff-3.jpg" />
+    <Content Include="images\staff-4.jpg" />
+    <Content Include="images\svg_slant_white.svg" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\google_map.js" />
+    <Content Include="js\jquery.countTo.js" />
+    <Content Include="js\jquery.easing.1.3.js" />
+    <Content Include="js\jquery.flexslider-min.js" />
+    <Content Include="js\jquery.magnific-popup.min.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.stellar.min.js" />
+    <Content Include="js\jquery.style.switcher.min.js" />
+    <Content Include="js\jquery.waypoints.min.js" />
+    <Content Include="js\magnific-popup-options.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\modernizr-2.6.2.min.js" />
+    <Content Include="js\owl.carousel.min.js" />
+    <Content Include="js\respond.min.js" />
+    <Content Include="js\sticky-kit.min.js" />
+    <Content Include="login.aspx" />
+    <Content Include="psignup.aspx" />
+    <Content Include="seeapp.aspx" />
+    <Content Include="takeappointment.aspx" />
+    <Content Include="viewdr.aspx" />
+    <Content Include="viewfeedback.aspx" />
+    <Content Include="viewp.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="about.aspx.designer.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin1.Master.cs">
+      <DependentUpon>Admin1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin1.Master.designer.cs">
+      <DependentUpon>Admin1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="alldoctors.aspx.cs">
+      <DependentUpon>alldoctors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="alldoctors.aspx.designer.cs">
+      <DependentUpon>alldoctors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="all_login.aspx.cs">
+      <DependentUpon>all_login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="all_login.aspx.designer.cs">
+      <DependentUpon>all_login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contactusaspx.aspx.cs">
+      <DependentUpon>contactusaspx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contactusaspx.aspx.designer.cs">
+      <DependentUpon>contactusaspx.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dhome.aspx.cs">
+      <DependentUpon>dhome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dhome.aspx.designer.cs">
+      <DependentUpon>dhome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="doctor.Master.cs">
+      <DependentUpon>doctor.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="doctor.Master.designer.cs">
+      <DependentUpon>doctor.Master</DependentUpon>
+    </Compile>
+    <Compile Include="doctorsin.aspx.cs">
+      <DependentUpon>doctorsin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="doctorsin.aspx.designer.cs">
+      <DependentUpon>doctorsin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dprofile.aspx.cs">
+      <DependentUpon>dprofile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dprofile.aspx.designer.cs">
+      <DependentUpon>dprofile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dseeapp.aspx.cs">
+      <DependentUpon>dseeapp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dseeapp.aspx.designer.cs">
+      <DependentUpon>dseeapp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="feedback.aspx.cs">
+      <DependentUpon>feedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="feedback.aspx.designer.cs">
+      <DependentUpon>feedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="psignup.aspx.cs">
+      <DependentUpon>psignup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="psignup.aspx.designer.cs">
+      <DependentUpon>psignup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="seeapp.aspx.cs">
+      <DependentUpon>seeapp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="seeapp.aspx.designer.cs">
+      <DependentUpon>seeapp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="takeappointment.aspx.cs">
+      <DependentUpon>takeappointment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="takeappointment.aspx.designer.cs">
+      <DependentUpon>takeappointment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="viewdr.aspx.cs">
+      <DependentUpon>viewdr.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="viewdr.aspx.designer.cs">
+      <DependentUpon>viewdr.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="viewfeedback.aspx.cs">
+      <DependentUpon>viewfeedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="viewfeedback.aspx.designer.cs">
+      <DependentUpon>viewfeedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="viewp.aspx.cs">
+      <DependentUpon>viewp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="viewp.aspx.designer.cs">
+      <DependentUpon>viewp.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site1.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin1.Master" />
+    <None Include="css\.DS_Store" />
+    <None Include="css\bootstrap.css.map" />
+    <None Include="css\style.css.map" />
+    <Content Include="doctor.Master" />
+    <None Include="fonts\.DS_Store" />
+    <None Include="fonts\bootstrap\glyphicons-halflings-regular.eot" />
+    <None Include="fonts\bootstrap\glyphicons-halflings-regular.ttf" />
+    <None Include="fonts\bootstrap\glyphicons-halflings-regular.woff" />
+    <None Include="fonts\bootstrap\glyphicons-halflings-regular.woff2" />
+    <None Include="fonts\flaticon\.DS_Store" />
+    <None Include="fonts\flaticon\font\Flaticon.eot" />
+    <None Include="fonts\flaticon\font\Flaticon.ttf" />
+    <None Include="fonts\flaticon\font\Flaticon.woff" />
+    <None Include="fonts\flaticon\font\_flaticon.scss" />
+    <None Include="fonts\flaticon\license\license.pdf" />
+    <None Include="fonts\icomoon\.DS_Store" />
+    <None Include="fonts\icomoon\icomoon.eot" />
+    <None Include="fonts\icomoon\icomoon.ttf" />
+    <None Include="fonts\icomoon\icomoon.woff" />
+    <None Include="images\.DS_Store" />
+    <None Include="js\.DS_Store" />
+    <None Include="sass\.DS_Store" />
+    <None Include="sass\bootstrap.scss" />
+    <None Include="sass\bootstrap\mixins\_alerts.scss" />
+    <None Include="sass\bootstrap\mixins\_background-variant.scss" />
+    <None Include="sass\bootstrap\mixins\_border-radius.scss" />
+    <None Include="sass\bootstrap\mixins\_buttons.scss" />
+    <None Include="sass\bootstrap\mixins\_center-block.scss" />
+    <None Include="sass\bootstrap\mixins\_clearfix.scss" />
+    <None Include="sass\bootstrap\mixins\_forms.scss" />
+    <None Include="sass\bootstrap\mixins\_gradients.scss" />
+    <None Include="sass\bootstrap\mixins\_grid-framework.scss" />
+    <None Include="sass\bootstrap\mixins\_grid.scss" />
+    <None Include="sass\bootstrap\mixins\_hide-text.scss" />
+    <None Include="sass\bootstrap\mixins\_image.scss" />
+    <None Include="sass\bootstrap\mixins\_labels.scss" />
+    <None Include="sass\bootstrap\mixins\_list-group.scss" />
+    <None Include="sass\bootstrap\mixins\_nav-divider.scss" />
+    <None Include="sass\bootstrap\mixins\_nav-vertical-align.scss" />
+    <None Include="sass\bootstrap\mixins\_opacity.scss" />
+    <None Include="sass\bootstrap\mixins\_pagination.scss" />
+    <None Include="sass\bootstrap\mixins\_panels.scss" />
+    <None Include="sass\bootstrap\mixins\_progress-bar.scss" />
+    <None Include="sass\bootstrap\mixins\_reset-filter.scss" />
+    <None Include="sass\bootstrap\mixins\_reset-text.scss" />
+    <None Include="sass\bootstrap\mixins\_resize.scss" />
+    <None Include="sass\bootstrap\mixins\_responsive-visibility.scss" />
+    <None Include="sass\bootstrap\mixins\_size.scss" />
+    <None Include="sass\bootstrap\mixins\_tab-focus.scss" />
+    <None Include="sass\bootstrap\mixins\_table-row.scss" />
+    <None Include="sass\bootstrap\mixins\_text-emphasis.scss" />
+    <None Include="sass\bootstrap\mixins\_text-overflow.scss" />
+    <None Include="sass\bootstrap\mixins\_vendor-prefixes.scss" />
+    <None Include="sass\bootstrap\_alerts.scss" />
+    <None Include="sass\bootstrap\_badges.scss" />
+    <None Include="sass\bootstrap\_breadcrumbs.scss" />
+    <None Include="sass\bootstrap\_button-groups.scss" />
+    <None Include="sass\bootstrap\_buttons.scss" />
+    <None Include="sass\bootstrap\_carousel.scss" />
+    <None Include="sass\bootstrap\_close.scss" />
+    <None Include="sass\bootstrap\_code.scss" />
+    <None Include="sass\bootstrap\_component-animations.scss" />
+    <None Include="sass\bootstrap\_dropdowns.scss" />
+    <None Include="sass\bootstrap\_forms.scss" />
+    <None Include="sass\bootstrap\_glyphicons.scss" />
+    <None Include="sass\bootstrap\_grid.scss" />
+    <None Include="sass\bootstrap\_input-groups.scss" />
+    <None Include="sass\bootstrap\_jumbotron.scss" />
+    <None Include="sass\bootstrap\_labels.scss" />
+    <None Include="sass\bootstrap\_list-group.scss" />
+    <None Include="sass\bootstrap\_media.scss" />
+    <None Include="sass\bootstrap\_mixins.scss" />
+    <None Include="sass\bootstrap\_modals.scss" />
+    <None Include="sass\bootstrap\_navbar.scss" />
+    <None Include="sass\bootstrap\_navs.scss" />
+    <None Include="sass\bootstrap\_normalize.scss" />
+    <None Include="sass\bootstrap\_pager.scss" />
+    <None Include="sass\bootstrap\_pagination.scss" />
+    <None Include="sass\bootstrap\_panels.scss" />
+    <None Include="sass\bootstrap\_popovers.scss" />
+    <None Include="sass\bootstrap\_print.scss" />
+    <None Include="sass\bootstrap\_progress-bars.scss" />
+    <None Include="sass\bootstrap\_responsive-embed.scss" />
+    <None Include="sass\bootstrap\_responsive-utilities.scss" />
+    <None Include="sass\bootstrap\_scaffolding.scss" />
+    <None Include="sass\bootstrap\_tables.scss" />
+    <None Include="sass\bootstrap\_theme.scss" />
+    <None Include="sass\bootstrap\_thumbnails.scss" />
+    <None Include="sass\bootstrap\_tooltip.scss" />
+    <None Include="sass\bootstrap\_type.scss" />
+    <None Include="sass\bootstrap\_utilities.scss" />
+    <None Include="sass\bootstrap\_variables.scss" />
+    <None Include="sass\bootstrap\_wells.scss" />
+    <None Include="sass\style.scss" />
+    <None Include="sass\_bootstrap-compass.scss" />
+    <None Include="sass\_bootstrap-mincer.scss" />
+    <None Include="sass\_bootstrap-sprockets.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="backgroundimg\" />
+    <Folder Include="ProfileImage\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>5590</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
